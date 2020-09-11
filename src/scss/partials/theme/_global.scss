@@ -1,0 +1,28 @@
+//Everything used across the entire site
+html,
+body {
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	image-rendering: -webkit-optimize-contrast;
+	font-size: 16px;
+}
+
+a {
+	transition: color .2s linear;
+
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
+}
+
+svg,
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+svg {
+	fill: currentColor;
+}
